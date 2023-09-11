@@ -10,7 +10,7 @@ const Typewriter = ({ text }) => {
         setDisplayText((prevText) => prevText + text[currentIndex]);
         setCurrentIndex((prevIndex) => prevIndex + 1);
       } else {
-        clearInterval(typingInterval); // Остановить интервал после завершения печати
+        clearInterval(typingInterval);
       }
     }, 50); // Интервал между символами
     return () => clearInterval(typingInterval); // Очистить интервал при размонтировании компонента
