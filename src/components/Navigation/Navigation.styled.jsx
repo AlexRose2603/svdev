@@ -19,7 +19,7 @@ export const Item = styled.li`
   font-size: 15px;
   transform: all 0.4s;
   padding: 7px 15px;
-  border-radius: 30px;
+  border-radius: 10px;
   transition: 0.4s;
   border: 1px solid #aed7de;
   &:hover {
